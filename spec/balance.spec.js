@@ -23,7 +23,7 @@ describe("Balance", () => {
 
   it("adding 10 money - transaction is included in array", () => {
     const transactions = balance.add(10)
-    expect(transactions).includes(10)).toEqual(true);
+    expect(transactions).includes(10).toEqual(true);
   })
 
   it("totals the transactions", () => {

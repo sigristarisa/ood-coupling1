@@ -2,7 +2,7 @@ const Skateboard = require('../src/skateboard.js')
 const Car = require('../src/car.js')
 const Plane = require('../src/plane.js')
 
-const move = (vehicle) => {
+function move(vehicle) {
   if (vehicle instanceof Skateboard) {
     return 'moved 100m'
   }
