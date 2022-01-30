@@ -10,8 +10,6 @@
 ### To run tests
 
 ```sh
-$ npm test
-# or
 $ npx jasmine spec/path/to/file
 ```
 
