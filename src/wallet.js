@@ -1,4 +1,3 @@
-
 class Wallet {
   constructor(cashBalance) {
     this.cashBalance = cashBalance
