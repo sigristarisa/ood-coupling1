@@ -1,10 +1,11 @@
 const Wallet = require('../src/wallet.js')
+const Balance = require('../src/balance.js')
 
 describe("Wallet", () => {
   let wallet
 
   beforeEach(() => {
-    wallet = new Wallet()
+    wallet = new Wallet(new Balance(100))
   })
 
   it("add 10 to balance", () => {

@@ -1,12 +1,11 @@
-const Balance = require('./balance.js')
 
 class Wallet {
-  constructor () {
-    this.cashBalance = new Balance(100)
+  constructor(cashBalance) {
+    this.cashBalance = cashBalance
     this.cards = []
   }
 
-  add (amount) {
+  add(amount) {
     this.cashBalance.add(amount)
     return this.cashBalance.total()
   }
