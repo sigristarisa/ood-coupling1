@@ -16,8 +16,4 @@ describe("move()", () => {
   it("moves Plane 10000m", function() {
     expect(move(new Plane())).toEqual("moved 10000m");
   })
-
-  it("moves SpaceShip 100000m", function() {
-    expect(move(new SpaceShip())).toEqual("moved 100000m");
-  })
 })
